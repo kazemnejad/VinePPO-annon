@@ -24,18 +24,6 @@ We first specify the configuration file for the experiment, and then, we explain
 - `configs/polIter_deepseekSft2_ppo_MATH.jsonnet`
 - `configs/polIter_deepseekSft2_ppo_GSM8K.jsonnet`
 
-**DPO Experiments**
-- `configs/polIter_rho1bSft2_dpo_positive_MATH.jsonnet`
-- `configs/polIter_rho1bSft2_dpo_positive_GSM8K.jsonnet`
-- `configs/polIter_deepseekSft2_dpo_positive_MATH.jsonnet`
-- `configs/polIter_deepseekSft2_dpo_positive_GSM8K.jsonnet`
-
-**RestEM Experiments**
-- `configs/polIter_rho1bSft2_restem_MATH.jsonnet`
-- `configs/polIter_rho1bSft2_restem_GSM8K.jsonnet`
-- `configs/polIter_deepseekSft2_restem_MATH.jsonnet`
-- `configs/polIter_deepseekSft2_restem_GSM8K.jsonnet`
-
 Once you have selected the configuration file, you can run the training and evaluation using the following script:
 ```bash
 
